@@ -1,0 +1,10 @@
+#Import the definitions library "roboparts"
+@import src="robotics/definitions/roboparts.rdef"
+
+<robocode>
+var = walkForwardTen {
+move.forward = (10);
+repeat = (2);
+}
+</robocode>
+
