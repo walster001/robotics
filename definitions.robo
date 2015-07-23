@@ -1,0 +1,11 @@
+#This is an example robotics file I'm using. Coding my own language is not going to be easy as I've never done this before
+#and I'm really just doing it to have a play around with my mind!
+
+#define is used to define various other definitions required in the programming language. For example "define roboArm" means
+#"roboArm" can be used in a syntax. For example "roboArm rotate left 20°"
+
+#To define a range of parameters to be used with the definition simply enclose in brackets. For example "roboFoot(1-10)" could be
+used in "roboLFoot(6) tilt up 20°" to tilt the 6th toe on the left foot up 20°
+define roboLFoot(1-10)
+define roboRFoot(1-10)
+define robo
