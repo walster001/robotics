@@ -46,4 +46,5 @@ define move.forward|fw: [servo[direction:foward]{amount}]
 define move.backward|back: [server[direction:backward]{amount}]
 
 define rotate|rot: [rot{value}]
+define repeat|rep: [{value}{repeat-count}]
 </definition>
