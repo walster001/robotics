@@ -37,3 +37,13 @@ define roboREye(180°);
 </definition>
 
 #DO NOT CHANGE CODE FROM THIS POINT ON! This is all for the development of the language and should only be changed by walster001.
+#When seperated by a pipe, its an alias.
+<definition = movement>
+define move: [move{value}]
+define move.right: [move{90°}], [servo[direction:right]{value}]
+define move.left: [move{-90°}], [servo[direction:left]{value}]
+define move.forward|fw: [servo[direction:foward]{amount}]
+define move.backward|back: [server[direction:backward]{amount}]
+
+define rotate|rot: [rot{value}]
+</definition>
