@@ -1,0 +1,12 @@
+#This is code for the language. Please do not modify anything - Do so at your own expense!
+
+#When seperated by a pipe, its an alias.
+<definition = movement>
+define move: [move{value}]
+define move.right: [move{90°}], [servo[direction:right]{value}]
+define move.left: [move{-90°}], [servo[direction:left]{value}]
+define move.forward|fw: [servo[direction:foward]{amount}]
+define move.backward|back: [server[direction:backward]{amount}]
+
+define rotate|rot: [rot{value}]
+</definition>
