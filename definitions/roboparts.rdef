@@ -35,3 +35,5 @@ define roboTongue(360°),(360°);
 define roboLEye(180°);
 define roboREye(180°);
 </definition>
+
+#DO NOT CHANGE CODE FROM THIS POINT ON! This is all for the development of the language and should only be changed by walster001.
