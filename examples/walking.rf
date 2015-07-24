@@ -11,10 +11,13 @@ move.forward = (20);
 }
 </variables>
 
-<robocode>
+<robocode mode="async">
+repeat = (2) {
 move.forward = (10);
 turn.left;
 move.forward = (5);
 turn.right;
-move.backward = (
+move.backward = (30);
+
+}
 </robocode>
