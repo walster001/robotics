@@ -19,5 +19,15 @@ move.forward = (5);
 turn.right;
 move.backward = (30);
 
+roboLHand(4),(1) pivot up 40°;
+roboLHand(4),(2) pivot up 50°;
+roboLHand(4),(3) pivot up 40°;
+roboLHand(4),(4) pivot up 50°;
+
+roboLHand(4),(4) pivot down 40°;
+roboLHand(4),(3) pivot down 50°;
+roboLHand(4),(2) pivot down 40°;
+roboLHand(4),(1) pivot down 50°;
+
 }
 </robocode>
