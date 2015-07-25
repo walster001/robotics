@@ -29,5 +29,8 @@ roboLHand(4),(3) pivot down 50°;
 roboLHand(4),(2) pivot down 40°;
 roboLHand(4),(1) pivot down 50°;
 
+roboLegs(1),(1) pivot up 20° THEN move.forward (20);
+
+interact.say string["This is a walking tutorial!"]
 }
 </robocode>
