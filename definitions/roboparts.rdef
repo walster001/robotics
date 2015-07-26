@@ -50,4 +50,5 @@ define repeat|rep: [{value}{repeat-count}]
 
 define interact|int: [interact {value}]
 define say: string["{usb.speaker.quote}"]
+define usb: string["{usb.interact}]
 </definition>
