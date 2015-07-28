@@ -49,10 +49,14 @@ define rotate|rot: [rot{value}]
 define repeat|rep: [{value}{repeat-count}]
 
 define interact|int: [interact {value}] {
-
 define say: string["{usb.speaker.quote}"]
 define usb: string["{usb.interact}]
 define sound: string["{usb.sound.play}"]
 }
-define 
+
+define on|onAction: [on{value}] {
+
+define sound|snd: ["{onsound.(condition)}]
+define usb|universalserialbus: ["{onusb.(condition)}]
+}
 </definition>
