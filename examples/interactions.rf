@@ -1,1 +1,6 @@
 #Demonstrates various possibilities with the interaction function of many USB coded robots.
+<robocode>
+interact.say["Hey, Welcome to the interactions tutorial! I must be being controlled...How shocking!"]
+interact.sound["fart.rbs"]
+interact.say["Oops, Crap...Sorry! Even robots got to fart...baby got back!"]
+</robocode>
