@@ -50,13 +50,14 @@ define repeat|rep: [{value}{repeat-count}]
 
 define interact|int: [interact {value}] {
 define say: string["{usb.speaker.quote}"]
-define usb: string["{usb.interact}]
-define sound: string["{usb.sound.play}"]
+define usb: string[{usb.interact}]
+define sound: string[{usb.sound.play}]
 }
 
 define on|onAction: [on{value}] {
 
-define sound|snd: ["{onsound.(condition)}]
-define usb|universalserialbus: ["{onusb.(condition)}]
+define sound|snd: [on{sound} (condition)]
+define usb|universalserialbus: [on{usb} (condition)]
+define interact|int: [on{interact} (condition)]
 }
 </definition>
