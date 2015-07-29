@@ -3,4 +3,8 @@
 interact.say["Hey, Welcome to the interactions tutorial! I must be being controlled...How shocking!"]
 interact.sound["fart.rbs"]
 interact.say["Oops, Crap...Sorry! Even robots got to fart...baby got back!"]
+
+interact.depthsens(30mm) = {
+interact.say["Hey, I'm sam...You are now 30mm away from my face...stop creeping me out man!"]
+}
 </robocode>
