@@ -57,5 +57,8 @@ define sound|snd: [on{sound},(condition)]
 define usb|universalserialbus: [on{usb},(condition)]
 define interact|int: [on{interact},(condition)]
 define rotate|rot: [on{rotate|rot},(condition)]
+define sensor|sens: [on{usb.sensor},(condition)]
+define depthsensor|depsens: [on{usb.sensor.depth},(condition)]
+define bluetooth|bluet: [on{bluetooth.*},(condition)]
 }
 </definition>
