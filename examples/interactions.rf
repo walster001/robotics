@@ -11,4 +11,9 @@ interact.say["Hey, I'm sam...You are now 30mm away from my face...stop creeping 
 interact.sens = {
 interact.say["Sir, may I please ask you not to cover my sensors. They are very sexy!"]
 }
+
+wait(10);
+
+interact.sound(repeat="2")["bebop.rbs"]
+interact.say(voicetype="robot-slurred")["%human.name%, I am your father. You shall obey me."]
 </robocode>
