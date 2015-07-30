@@ -7,4 +7,8 @@ interact.say["Oops, Crap...Sorry! Even robots got to fart...baby got back!"]
 interact.depthsens(30mm) = {
 interact.say["Hey, I'm sam...You are now 30mm away from my face...stop creeping me out man!"]
 }
+
+interact.sens = {
+interact.say["Sir, may I please ask you not to cover my sensors. They are very sexy!"]
+}
 </robocode>
