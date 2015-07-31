@@ -49,6 +49,9 @@ define interact|int: [interact {value}] {
 define say: string["{usb.speaker.quote}"]
 define usb: string[{usb.interact}]
 define sound: string[{usb.sound.play}]
+define sensor|sens: [{usb.sensor}]
+define depthsensor|depsens: [{usb.sensor.depth}]
+define bluetooth|bluet: [{infrared.bluetooth.*}]
 }
 
 define on|onAction: [on{value}] {
