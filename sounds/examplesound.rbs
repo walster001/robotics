@@ -1,1 +1,6 @@
-
+robosound {
+name="examplesound"
+extension="rbs"
+tempo="60"
+}
+#Tempo is in BPM
