@@ -63,5 +63,6 @@ define rotate|rot: [on{rotate|rot},(condition)]
 define sensor|sens: [on{usb.sensor},(condition)]
 define depthsensor|depsens: [on{usb.sensor.depth},(condition)]
 define bluetooth|bluet: [on{bluetooth.*},(condition)]
+define infrared|infra: [on{infrared.*},(condition)]
 }
 </definition>
