@@ -1,2 +1,3 @@
 #Robo Sound Library, Do not modify any content
-define click: [
+define sound.click: [on{sound.click},(
+define sound|snd: [on{sound},(condition)]
