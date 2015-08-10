@@ -1,3 +1,16 @@
 #Robo Sound Library, Do not modify any content
-define sound.click: [on{sound.click},(
-define sound|snd: [on{sound},(condition)]
+#Gain is in Decibels
+
+define sound.click: string[{usb.sound.play(tone="50"; gain="10"; id="click")}]
+define sound.snare|snaredrum: string[{usb.sound.play(tone="76.5"; gain="10"; id="snare")}]
+define sound.kick|kickpedal|kickped: string[{usb.sound.play(tone="12"; gain="10"; id="kick")}]
+define sound.tom1: string[{usb.sound.play(tone="23"; gain="10"; id="tom1")}]
+define sound.tom2: string[{usb.sound.play(tone="19"; gain="10"; id="tom2")}]
+define sound.ride: string[{usb.sound.play(tone="90"; gain="10"; id="ride")}]
+define sound.crash: string[{usb.sound.play(tone="65.87790"; gain="10"; id="crash")}]
+
+#Instrument
+define sound.xylophone|xylo: string[{usb.sound.play(tone="50"; gain="10"; id="xylo" pitch="%xylopitch%")}]
+define sound.piano|piani: string[{usb.sound.play(tone="50"; gain="10"; id="keyboard" pitch="%keyspitch%")}]
+define sound.keys|synth: string[{usb.sound.play(tone="50"; gain="10"; id="synth" pitch="%synthpitch% modulation="%synthmod%")}]
+
