@@ -10,7 +10,8 @@ define sound.ride: string[{usb.sound.play(tone="90"; gain="10"; id="ride")}]
 define sound.crash: string[{usb.sound.play(tone="65.87790"; gain="10"; id="crash")}]
 
 #Instrument
-define sound.xylophone|xylo: string[{usb.sound.play(tone="50"; gain="10"; id="xylo" pitch="%xylopitch%")}]
-define sound.piano|piani: string[{usb.sound.play(tone="50"; gain="10"; id="keyboard" pitch="%keyspitch%")}]
-define sound.keys|synth: string[{usb.sound.play(tone="50"; gain="10"; id="synth" pitch="%synthpitch% modulation="%synthmod%")}]
+define sound.xylophone|xylo: string[{usb.sound.play(tone="78"; gain="10"; id="xylo" pitch="%xylopitch%")}]
+define sound.piano|piani: string[{usb.sound.play(tone="0-100"; gain="10"; id="keyboard" pitch="%keyspitch%")}]
+define sound.keys|synth: string[{usb.sound.play(tone="0-250"; gain="10"; id="synth" pitch="%synthpitch% modulation="%synthmod%")}]
+define sound.strings|string|orch|orchestra: string[{usb.sound.play(tone="-149-240"; gain="10"; id="strings" pitch="%stringspitch% modulation="%stringsmod%")}]
 
