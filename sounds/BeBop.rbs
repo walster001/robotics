@@ -6,12 +6,8 @@ tempo="200"
 #Tempo is in BPM
 
 robo sound bebop loop {
-synth.sound.play(repeat="1" tone="F#" 
-kick.sound.play(repeat="2");
+synth.sound.play(repeat="1" tone="F#" mod="SpaceShuttle"); 
 wait(0.1);
-snare.sound.play(repeat="1");
+synth.sound.play(repeat="1" tone="C" mod="SpaceShuttle");
 wait(0.1);
-kick.sound.play(repeat="3");
-wait(0.1);
-snare.sound.play(repeat="3");
 }
