@@ -4,3 +4,13 @@ extension="rbs"
 tempo="60"
 }
 #Tempo is in BPM
+
+robo sound examplesound loop {
+kick.sound.play(repeat="2");
+wait(0.1);
+snare.sound.play(repeat="1");
+wait(0.1);
+kick.sound.play(repeat="3");
+wait(0.1);
+snare.sound.play(repeat="3");
+}
