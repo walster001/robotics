@@ -2,4 +2,12 @@
 name="Hair"
 part="humanoid.upper.torso"
 interacts="movement.360; rot.360"
+receivewind="true"
+}
+
+humanoid public void class torso.Hair {
+
+var playLoop repeat 10*121 {
+setvariable %hairmath% = humanoid.duplicate.2**3
+  }
 }
