@@ -1,0 +1,5 @@
+3DScan Part def {
+name="Hair"
+part="humanoid.upper.torso"
+interacts="movement.360; rot.360"
+}
