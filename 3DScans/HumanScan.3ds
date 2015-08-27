@@ -1,0 +1,17 @@
+3dscan { 
+name="HumanScan" 
+extension="3ds"
+scan.humanoid
+}
+ 
+define extension 3dsp {
+[3dsp {"Parts of a humanoid scan model"} ]
+
+3dscan model = humanoid {
+searchfor "hair.3dsp"
+searchfor "head.3dsp"
+searchfor "neck.3dsp"
+searchfor "chest.3dsp"
+searchfor "waist.3dsp"
+searchfor "legsfeet.3dsp"
+
