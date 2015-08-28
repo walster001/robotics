@@ -1,1 +1,17 @@
+3DScan Part def {
+name="Head"
+part="humanoid.upper.torso"
+interacts="movement.360; rot.360, eye.move.360"
+receivewind="false"
+humanoid.eye.receivewind = "true"
+}
 
+humanoid public void class torso.Head {
+
+var playLoop repeat 10*121 {
+setvariable %eyemath% = humanoid.duplicate.2**3
+  }
+  
+var playLoop repeat 2 {
+setvariable %eyeposition% = "X:200, Y:-300"
+}
