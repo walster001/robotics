@@ -14,4 +14,6 @@ setvariable %eyemath% = humanoid.duplicate.2**3
   
 var playLoop repeat 2 {
 setvariable %eyeposition% = "X:200, Y:-300"
+humanoid.eye = "2Dscript"
+humanoid.eye.color = "brown"
 }
