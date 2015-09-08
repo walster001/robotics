@@ -15,3 +15,12 @@ searchfor "chest.3dsp"
 searchfor "waist.3dsp"
 searchfor "legsfeet.3dsp"
 
+public void scan3D {
+
+onLoad "hair.3dsp" execute script
+onLoad "head.3dsp" execute script
+onLoad "neck.3dsp" execute script
+onLoad "chest.3dsp" execute script
+onLoad "waist.3dsp" execute script
+onLoad legsfeet.3dsp" execute script
+}
