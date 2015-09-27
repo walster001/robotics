@@ -24,3 +24,6 @@ onLoad "chest.3dsp" execute script
 onLoad "waist.3dsp" execute script
 onLoad legsfeet.3dsp" execute script
 }
+
+private class execute3CPU {
+}
