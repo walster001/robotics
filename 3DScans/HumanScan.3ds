@@ -26,4 +26,5 @@ onLoad legsfeet.3dsp" execute script
 }
 
 private class execute3CPU {
+execute 3CPU.speed 3.8GHz;
 }
